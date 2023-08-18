@@ -1,0 +1,91 @@
+@media screen and (max-width: 992px) {
+    .services .row {
+        flex-wrap: wrap;
+    }
+
+    .services__card {
+        width: 47%;
+    }
+
+    .info_section .row{
+        flex-wrap: wrap;
+    }
+    .info_detail{
+        width: 47%;
+        text-align: center;
+    }
+    .info_link_box{
+        width: 47%;
+        text-align: center;
+    }
+    .subscribe{
+        width: 47%;
+        text-align: center;
+    }
+    .info_contact{
+        width: 47%;
+        text-align: center;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        display: none;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .slider__img {
+        width: 100%;
+    }
+
+    .slider__details {
+        width: 100%;
+    }
+
+    .services__card {
+        width: 100%;
+    }
+
+    .info_detail {
+        width: 100%;
+    }
+
+    .about__details {
+        width: 100%;
+    }
+
+    .contact__from{
+        width: 100%;
+    }
+    .contact__from h2{
+        text-align: center;
+}
+    .map{
+        display: none;
+    }
+
+
+    .info_link_box {
+        width: 100%;
+    }
+
+    .about__img {
+        width: 100%;
+    }
+
+    .subscribe {
+        width: 100%;
+    }
+
+    .info_contact {
+        width: 100%;
+    }
+    .info_section .row {
+        align-items: center;
+        justify-content: start;
+    }
+}
